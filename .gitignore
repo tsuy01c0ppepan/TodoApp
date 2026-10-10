@@ -1,0 +1,49 @@
+# Xcode
+DerivedData/
+build/
+*.xcuserstate
+*.xcuserdata
+xcuserdata/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.resolved
+
+# CocoaPods / Carthage
+Pods/
+Carthage/Build/
+
+# macOS
+.DS_Store
+**/.DS_Store
+.AppleDouble
+.LSOverride
+
+# Secrets / credentials (never commit)
+*.pem
+*.p12
+*.mobileprovision
+*.xcconfig.local
+.env
+.env.*
+!.env.example
+Secrets.plist
+GoogleService-Info.plist
+AuthKey_*.p8
+
+# IDE
+.idea/
+*.swp
+*~
+
+# Hermes / local scratch
+.hermes/
